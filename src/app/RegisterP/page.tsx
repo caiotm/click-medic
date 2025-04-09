@@ -3,7 +3,7 @@ import { ptBR } from "date-fns/locale"
 import * as React from "react"
 import { format } from "date-fns"
 import { CalendarIcon } from "lucide-react"
-import DemoPage from "./TabsDemo" // ou outro nome de arquivo onde o componente está
+// import DemoPage from "./TabsDemo" // ou outro nome de arquivo onde o componente está
 
 
 
@@ -52,8 +52,8 @@ import { Label } from "@/components/ui/label"
 import {
   Tabs,
   TabsContent,
-  TabsList,
-  TabsTrigger,
+  // TabsList,
+  // TabsTrigger,
 } from "@/components/ui/tabs"
 import {
   Command,
@@ -63,8 +63,8 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-  CommandSeparator,
-  CommandShortcut,
+  // CommandSeparator,
+  // CommandShortcut,
 } from "@/components/ui/command"
 
 
